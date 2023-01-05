@@ -1,0 +1,935 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Input_f.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Order Date" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="V_String" />
+            <Field name="Customer ID" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="V_String" />
+            <Field name="Segment" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="V_String" />
+            <Field name="Product ID" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="V_String" />
+            <Field name="Sub-Category" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="V_String" />
+            <Field name="Sales" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="V_String" />
+            <Field name="Quantity" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="V_String" />
+            <Field name="Discount" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="V_String" />
+            <Field name="Profit" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Input_o.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Order Date" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="V_String" />
+            <Field name="Customer ID" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="V_String" />
+            <Field name="Segment" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="V_String" />
+            <Field name="Product ID" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="V_String" />
+            <Field name="Sub-Category" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="V_String" />
+            <Field name="Sales" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="V_String" />
+            <Field name="Quantity" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="V_String" />
+            <Field name="Discount" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="V_String" />
+            <Field name="Profit" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Input_t.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Order Date" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="V_String" />
+            <Field name="Customer ID" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="V_String" />
+            <Field name="Segment" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="V_String" />
+            <Field name="Product ID" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="V_String" />
+            <Field name="Sub-Category" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="V_String" />
+            <Field name="Sales" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="V_String" />
+            <Field name="Quantity" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="V_String" />
+            <Field name="Discount" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="V_String" />
+            <Field name="Profit" size="254" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="138" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Order Date" selected="True" />
+            <Field field="Customer ID" selected="True" />
+            <Field field="Segment" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Region" selected="True" />
+            <Field field="Product ID" selected="True" />
+            <Field field="Category" selected="True" />
+            <Field field="Sub-Category" selected="True" />
+            <Field field="Sales" selected="True" />
+            <Field field="Quantity" selected="True" />
+            <Field field="Discount" selected="True" />
+            <Field field="Profit" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Order Date" size="10" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="String" />
+            <Field name="Customer ID" size="8" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="String" />
+            <Field name="Segment" size="11" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="String" />
+            <Field name="City" size="16" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="V_String" />
+            <Field name="State" size="20" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="V_String" />
+            <Field name="Region" size="7" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="String" />
+            <Field name="Product ID" size="15" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="String" />
+            <Field name="Category" size="9" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="String" />
+            <Field name="Sub-Category" size="11" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="String" />
+            <Field name="Sales" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="Double" />
+            <Field name="Quantity" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="Byte" />
+            <Field name="Discount" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="Double" />
+            <Field name="Profit" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_f.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="138" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Order Date" selected="True" />
+            <Field field="Customer ID" selected="True" />
+            <Field field="Segment" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Region" selected="True" />
+            <Field field="Product ID" selected="True" />
+            <Field field="Category" selected="True" />
+            <Field field="Sub-Category" selected="True" />
+            <Field field="Sales" selected="True" />
+            <Field field="Quantity" selected="True" />
+            <Field field="Discount" selected="True" />
+            <Field field="Profit" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Order Date" size="10" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="String" />
+            <Field name="Customer ID" size="8" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="String" />
+            <Field name="Segment" size="11" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="String" />
+            <Field name="City" size="17" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="V_String" />
+            <Field name="State" size="20" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="V_String" />
+            <Field name="Region" size="7" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="String" />
+            <Field name="Product ID" size="15" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="String" />
+            <Field name="Category" size="15" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="String" />
+            <Field name="Sub-Category" size="10" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="String" />
+            <Field name="Sales" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="Double" />
+            <Field name="Quantity" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="Byte" />
+            <Field name="Discount" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="Double" />
+            <Field name="Profit" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_o.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="138" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Order Date" selected="True" />
+            <Field field="Customer ID" selected="True" />
+            <Field field="Segment" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Region" selected="True" />
+            <Field field="Product ID" selected="True" />
+            <Field field="Category" selected="True" />
+            <Field field="Sub-Category" selected="True" />
+            <Field field="Sales" selected="True" />
+            <Field field="Quantity" selected="True" />
+            <Field field="Discount" selected="True" />
+            <Field field="Profit" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Order Date" size="10" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="String" />
+            <Field name="Customer ID" size="8" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="String" />
+            <Field name="Segment" size="11" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="String" />
+            <Field name="City" size="16" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="V_String" />
+            <Field name="State" size="20" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="V_String" />
+            <Field name="Region" size="7" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="String" />
+            <Field name="Product ID" size="15" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="String" />
+            <Field name="Category" size="10" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="String" />
+            <Field name="Sub-Category" size="11" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="String" />
+            <Field name="Sales" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="Double" />
+            <Field name="Quantity" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="Byte" />
+            <Field name="Discount" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="Double" />
+            <Field name="Profit" source="File: C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Input_t.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="222" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Region" action="GroupBy" rename="Region" />
+            <SummarizeField field="Sales" action="Sum" rename="Sum_Sales" />
+            <SummarizeField field="Quantity" action="Sum" rename="Sum_Quantity" />
+            <SummarizeField field="Discount" action="Sum" rename="Sum_Discount" />
+            <SummarizeField field="Profit" action="Sum" rename="Sum_Profit" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="222" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Region" action="GroupBy" rename="Region" />
+            <SummarizeField field="Sales" action="Sum" rename="Sum_Sales" />
+            <SummarizeField field="Quantity" action="Sum" rename="Sum_Quantity" />
+            <SummarizeField field="Discount" action="Sum" rename="Sum_Discount" />
+            <SummarizeField field="Profit" action="Sum" rename="Sum_Profit" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="222" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Region" action="GroupBy" rename="Region" />
+            <SummarizeField field="Sales" action="Sum" rename="Sum_Sales" />
+            <SummarizeField field="Quantity" action="Sum" rename="Sum_Quantity" />
+            <SummarizeField field="Discount" action="Sum" rename="Sum_Discount" />
+            <SummarizeField field="Profit" action="Sum" rename="Sum_Profit" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="438" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#1">
+              <Field field="Region" />
+            </JoinInfo>
+            <JoinInfo connection="#2">
+              <Field field="Region" />
+            </JoinInfo>
+            <JoinInfo connection="#3">
+              <Field field="Region" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Error</CartesianMode>
+          <OutputJoinOnly value="True" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#1_Region" selected="True" />
+                <SelectField field="Input_#1_Sum_Sales" selected="True" rename="Sales_f" />
+                <SelectField field="Input_#1_Sum_Quantity" selected="True" rename="Quantity_f" />
+                <SelectField field="Input_#1_Sum_Discount" selected="True" rename="Discount_f" />
+                <SelectField field="Input_#1_Sum_Profit" selected="True" rename="Profit_f" />
+                <SelectField field="Input_#2_Region" selected="False" rename="Input_#2_Region" />
+                <SelectField field="Input_#2_Sum_Sales" selected="True" rename="Sales_o" />
+                <SelectField field="Input_#2_Sum_Quantity" selected="True" rename="Quantity_o" />
+                <SelectField field="Input_#2_Sum_Discount" selected="True" rename="Discount_o" />
+                <SelectField field="Input_#2_Sum_Profit" selected="True" rename="Profit_o" />
+                <SelectField field="Input_#3_Region" selected="False" rename="Input_#3_Region" />
+                <SelectField field="Input_#3_Sum_Sales" selected="True" rename="Sales_t" />
+                <SelectField field="Input_#3_Sum_Quantity" selected="True" rename="Quantity_t" />
+                <SelectField field="Input_#3_Sum_Discount" selected="True" rename="Discount_t" />
+                <SelectField field="Input_#3_Sum_Profit" selected="True" rename="Profit_t" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="282" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Segment" action="GroupBy" rename="Segment" />
+            <SummarizeField field="City" action="GroupBy" rename="City" />
+            <SummarizeField field="Sales" action="Sum" rename="Sum_Sales" />
+            <SummarizeField field="Quantity" action="Sum" rename="Sum_Quantity" />
+            <SummarizeField field="Discount" action="Sum" rename="Sum_Discount" />
+            <SummarizeField field="Profit" action="Sum" rename="Sum_Profit" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="282" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Segment" action="GroupBy" rename="Segment" />
+            <SummarizeField field="City" action="GroupBy" rename="City" />
+            <SummarizeField field="Sales" action="Sum" rename="Sum_Sales" />
+            <SummarizeField field="Quantity" action="Sum" rename="Sum_Quantity" />
+            <SummarizeField field="Discount" action="Sum" rename="Sum_Discount" />
+            <SummarizeField field="Profit" action="Sum" rename="Sum_Profit" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="282" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Segment" action="GroupBy" rename="Segment" />
+            <SummarizeField field="City" action="GroupBy" rename="City" />
+            <SummarizeField field="Sales" action="Sum" rename="Sum_Sales" />
+            <SummarizeField field="Quantity" action="Sum" rename="Sum_Quantity" />
+            <SummarizeField field="Discount" action="Sum" rename="Sum_Discount" />
+            <SummarizeField field="Profit" action="Sum" rename="Sum_Profit" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="462" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#1">
+              <Field field="Segment" />
+              <Field field="Segment" />
+              <Field field="City" />
+            </JoinInfo>
+            <JoinInfo connection="#2">
+              <Field field="Segment" />
+              <Field field="Segment" />
+              <Field field="City" />
+            </JoinInfo>
+            <JoinInfo connection="#3">
+              <Field field="Segment" />
+              <Field field="Segment" />
+              <Field field="City" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Error</CartesianMode>
+          <OutputJoinOnly value="True" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#1_Segment" selected="True" />
+                <SelectField field="Input_#1_City" selected="True" />
+                <SelectField field="Input_#1_Sum_Sales" selected="True" rename="Sales_f" />
+                <SelectField field="Input_#1_Sum_Quantity" selected="True" rename="Quantity_f" />
+                <SelectField field="Input_#1_Sum_Discount" selected="True" rename="Discount_f" />
+                <SelectField field="Input_#1_Sum_Profit" selected="True" rename="Profit_f" />
+                <SelectField field="Input_#2_Segment" selected="False" rename="Input_#2_Segment" />
+                <SelectField field="Input_#2_City" selected="False" rename="Input_#2_City" />
+                <SelectField field="Input_#2_Sum_Sales" selected="True" rename="Sales_o" />
+                <SelectField field="Input_#2_Sum_Quantity" selected="True" rename="Quantity_o" />
+                <SelectField field="Input_#2_Sum_Discount" selected="True" rename="Discount_o" />
+                <SelectField field="Input_#2_Sum_Profit" selected="True" rename="Profit_o" />
+                <SelectField field="Input_#3_Segment" selected="False" rename="Input_#3_Segment" />
+                <SelectField field="Input_#3_City" selected="False" rename="Input_#3_City" />
+                <SelectField field="Input_#3_Sum_Sales" selected="True" rename="Sales_t" />
+                <SelectField field="Input_#3_Sum_Quantity" selected="True" rename="Quantity_t" />
+                <SelectField field="Input_#3_Sum_Discount" selected="True" rename="Discount_t" />
+                <SelectField field="Input_#3_Sum_Profit" selected="True" rename="Profit_t" />
+                <SelectField field="Input_#2_Category" selected="False" rename="Input_#2_Category" />
+                <SelectField field="Input_#3_Category" selected="False" rename="Input_#3_Category" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="582" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="(([Sales_f]-[Sales_o])*100)/[Sales_f]" field="Change in Sales(f-o)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Sales_o]-[Sales_t])*100)/[Sales_o]" field="Change in Sales(o-t)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Sales_t]-[Sales_f])*100)/[Sales_t]" field="Change in Sales(t-f)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Quantity_f]-[Quantity_o])*100)/[Quantity_f]" field="Change in Quantity(f-o)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Quantity_o]-[Quantity_t])*100)/[Quantity_o]" field="Change in Quantity(o-t)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Quantity_t]-[Quantity_f])*100)/[Quantity_t]" field="Change in Quantity(t-f)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Discount_f]-[Discount_o])*100)/[Discount_f]" field="Change in Discount(f-o)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Discount_o]-[Discount_t])*100)/[Discount_o]" field="Change in Discount(o-t)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Discount_t]-[Discount_f])*100)/[Discount_t]" field="Change in Discount(t-f)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Profit_f]-[Profit_o])*100)/[Profit_f]" field="Change in Profit(f-o)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Profit_o]-[Profit_t])*100)/[Profit_o]" field="Change in Profit(o-t)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Profit_t]-[Profit_f])*100)/[Profit_t]" field="Change in Profit(t-f)" size="19.2" type="FixedDecimal" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Change in Sales(f-o) = (([Sales_f]-[Sales_o])*100)/[Sales_f]
+Change in Sales(o-t...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="690" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Change in Sales(f-o)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Sales(o-t)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Sales(t-f)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Quantity(f-o)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Quantity(o-t)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Quantity(t-f)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Discount(f-o)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Discount(o-t)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Discount(t-f)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Profit(f-o)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Profit(o-t)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Profit(t-f)" selected="True" type="V_String" size="19" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="810" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Change in Sales(f-o)] + '%'" field="Change in Sales(f-o)" size="19" type="V_String" />
+            <FormulaField expression="[Change in Sales(o-t)] + '%'" field="Change in Sales(o-t)" size="19" type="V_String" />
+            <FormulaField expression="[Change in Sales(t-f)] + '%'" field="Change in Sales(t-f)" size="19" type="V_String" />
+            <FormulaField expression="[Change in Quantity(f-o)] + '%'" field="Change in Quantity(f-o)" size="19" type="V_String" />
+            <FormulaField expression="[Change in Quantity(o-t)] + '%'" field="Change in Quantity(o-t)" size="19" type="V_String" />
+            <FormulaField expression="[Change in Quantity(t-f)] + '%'" field="Change in Quantity(t-f)" size="19" type="V_String" />
+            <FormulaField expression="[Change in Discount(f-o)] + '%'" field="Change in Discount(f-o)" size="19" type="V_String" />
+            <FormulaField expression="[Change in Discount(o-t)] + '%'" field="Change in Discount(o-t)" size="19" type="V_String" />
+            <FormulaField expression="[Change in Discount(t-f)] + '%'" field="Change in Discount(t-f)" size="19" type="V_String" />
+            <FormulaField expression="[Change in Profit(f-o)] + '%'" field="Change in Profit(f-o)" size="19" type="V_String" />
+            <FormulaField expression="[Change in Profit(o-t)] + '%'" field="Change in Profit(o-t)" size="19" type="V_String" />
+            <FormulaField expression="[Change in Profit(t-f)] + '%'" field="Change in Profit(t-f)" size="19" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Change in Sales(f-o) = [Change in Sales(f-o)] + '%'
+Change in Sales(o-t) = [Chan...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="594" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="(([Sales_f]-[Sales_o])*100)/[Sales_f]" field="Change in Sales(f-o)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Sales_o]-[Sales_t])*100)/[Sales_o]" field="Change in Sales(o-t)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Sales_t]-[Sales_f])*100)/[Sales_t]" field="Change in Sales(t-f)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Quantity_f]-[Quantity_o])*100)/[Quantity_f]" field="Change in Quantity(f-o)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Quantity_o]-[Quantity_t])*100)/[Quantity_o]" field="Change in Quantity(o-t)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Quantity_t]-[Quantity_f])*100)/[Quantity_t]" field="Change in Quantity(t-f)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Discount_f]-[Discount_o])*100)/[Discount_f]" field="Change in Discount(f-o)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Discount_o]-[Discount_t])*100)/[Discount_o]" field="Change in Discount(o-t)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Discount_t]-[Discount_f])*100)/[Discount_t]" field="Change in Discount(t-f)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Profit_f]-[Profit_o])*100)/[Profit_f]" field="Change in Profit(f-o)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Profit_o]-[Profit_t])*100)/[Profit_o]" field="Change in Profit(o-t)" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="(([Profit_t]-[Profit_f])*100)/[Profit_t]" field="Change in Profit(t-f)" size="19.2" type="FixedDecimal" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Change in Sales(f-o) = (([Sales_f]-[Sales_o])*100)/[Sales_f]
+Change in Sales(o-t...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="690" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Change in Sales(f-o)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Sales(o-t)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Sales(t-f)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Quantity(f-o)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Quantity(o-t)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Quantity(t-f)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Discount(f-o)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Discount(o-t)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Discount(t-f)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Profit(f-o)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Profit(o-t)" selected="True" type="V_String" size="19" />
+            <SelectField field="Change in Profit(t-f)" selected="True" type="V_String" size="19" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="810" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF IsNull([Change in Sales(f-o)]) THEN 'NULL' ELSE[Change in Sales(f-o)] + '%'  ENDIF" field="Change in Sales(f-o)" size="19" type="V_String" />
+            <FormulaField expression="IF IsNull([Change in Sales(o-t)]) THEN 'NULL' ELSE[Change in Sales(o-t)] + '%'  ENDIF&#xA;" field="Change in Sales(o-t)" size="19" type="V_String" />
+            <FormulaField expression="IF IsNull([Change in Sales(t-f)]) THEN 'NULL' ELSE[Change in Sales(t-f)] + '%'  ENDIF" field="Change in Sales(t-f)" size="19" type="V_String" />
+            <FormulaField expression="IF IsNull([Change in Quantity(f-o)]) THEN 'NULL' ELSE[Change in Quantity(f-o)] + '%'  ENDIF&#xA;" field="Change in Quantity(f-o)" size="19" type="V_String" />
+            <FormulaField expression="IF IsNull([Change in Quantity(o-t)]) THEN 'NULL' ELSE[Change in Quantity(o-t)] + '%'  ENDIF&#xA;" field="Change in Quantity(o-t)" size="19" type="V_String" />
+            <FormulaField expression="IF IsNull([Change in Quantity(t-f)]) THEN 'NULL' ELSE[Change in Quantity(t-f)] + '%'  ENDIF&#xA;" field="Change in Quantity(t-f)" size="19" type="V_String" />
+            <FormulaField expression="IF IsNull([Change in Discount(f-o)]) THEN 'NULL' ELSE[Change in Discount(f-o)] + '%'  ENDIF" field="Change in Discount(f-o)" size="19" type="V_String" />
+            <FormulaField expression="IF IsNull([Change in Discount(o-t)]) THEN 'NULL' ELSE[Change in Discount(o-t)] + '%'  ENDIF" field="Change in Discount(o-t)" size="19" type="V_String" />
+            <FormulaField expression="IF IsNull([Change in Discount(t-f)]) THEN 'NULL' ELSE[Change in Discount(t-f)] + '%'  ENDIF" field="Change in Discount(t-f)" size="19" type="V_String" />
+            <FormulaField expression="IF IsNull([Change in Profit(f-o)]) THEN 'NULL' ELSE[Change in Profit(f-o)] + '%'  ENDIF" field="Change in Profit(f-o)" size="19" type="V_String" />
+            <FormulaField expression="IF IsNull([Change in Profit(o-t)]) THEN 'NULL' ELSE[Change in Profit(o-t)] + '%'  ENDIF" field="Change in Profit(o-t)" size="19" type="V_String" />
+            <FormulaField expression="IF IsNull([Change in Profit(t-f)]) THEN 'NULL' ELSE[Change in Profit(t-f)] + '%'  ENDIF" field="Change in Profit(t-f)" size="19" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Change in Sales(f-o) = IF IsNull([Change in Sales(f-o)]) THEN 'NULL' ELSE[Change...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="942" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Output.xlsx|||By Region</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>RemoveFile</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output.xlsx
+Query=By Region</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1026" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\ommde\OneDrive\Desktop\OS\OS 2\Output.xlsx|||By Segment &amp; City</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output.xlsx
+Query=By Segment &amp; City</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+        <Position x="894" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output2" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Assignment 2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="a1e01b2f-3253-4e31-8e90-20bfb7f5646b" />
+      <Telemetry>
+        <PreviousWorkflowId value="b4d5a70c-a1d5-4a61-9503-1e847898041b" />
+        <OriginWorkflowId value="b4d5a70c-a1d5-4a61-9503-1e847898041b" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
